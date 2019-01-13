@@ -1,0 +1,17 @@
+[package]
+name = "helloworld"
+version = "1.0.0"
+authors = ["abe.codes <me@abe.codes>"]
+license = "UNLICENSED"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "helloworld"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.2.0"
+
+[dependencies]
+neon = "0.2.0"

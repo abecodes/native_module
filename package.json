@@ -1,0 +1,14 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "A simple hello world demo",
+  "main": "lib/index.js",
+  "author": "abe.codes <me@abe.codes>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "neon-cli": "^0.2.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
