@@ -1,3 +1,4 @@
-# helloworld
+# Native Node Modules with Rust
 
-A simple hello world demo
+Read the whole introduction here:
+https://abe.codes/native-node-modules-with-rust-and-neon/
